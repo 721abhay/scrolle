@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Scrolle</string>
+    <string name="accessibility_description">Automatically detects when you scroll reels or shorts to update your counter in real time.</string>
+</resources>

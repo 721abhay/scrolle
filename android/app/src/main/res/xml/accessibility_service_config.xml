@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewScrolled|typeViewSelected|typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault|flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_description"
+    android:notificationTimeout="80"
+    android:packageNames="com.instagram.android,com.instagram.lite,com.google.android.youtube,app.revanced.android.youtube,com.zhiliaoapp.musically,com.ss.android.ugc.trill,com.zhiliaoapp.musically.go,com.ss.android.ugc.aweme,com.snapchat.android,com.facebook.katana,com.facebook.lite,in.moj.app,com.eterno.shortvideos,in.moj.mxtakatak.android,in.sharechat.android" />

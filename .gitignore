@@ -1,0 +1,38 @@
+# ── Node / Web ──────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.log
+.env
+.env.local
+
+# ── Android Build Outputs ───────────────────────────────
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/**/.DS_Store
+
+# ── APK binaries (keep only in releases, not in source) ─
+*.apk
+*.aab
+*.ipa
+
+# ── Signing keys (NEVER commit these) ──────────────────
+*.jks
+*.keystore
+*.p12
+release-key*
+
+# ── OS junk ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ───────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
